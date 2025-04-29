@@ -7,7 +7,7 @@ To design and simulate a 4-bit Ripple Counter using Verilog HDL with a function 
 Computer with Vivado or any Verilog simulation software.
 Verilog HDL compiler.
 
-### Verilog Code
+### Verilog Code for Ripple Carry Adder
 ```verilog
 module ripple_4bit_adder(
     input [3:0] A,
@@ -46,7 +46,7 @@ endmodule
 ![Screenshot 2025-04-12 140139](https://github.com/user-attachments/assets/6e831d83-7ab9-4d5a-9cc1-82a8e2ffb313)
 
 
-// Test bench for Ripple carry adder
+### Test bench for Ripple carry adder
 ```verilog
 module ripple_4bit_adder_tb;
 
@@ -94,7 +94,7 @@ endmodule
  Output
 
 
-// Verilog Code ripple counter
+### Verilog Code ripple counter
 
 ```verilog
 module ripple_counter_4bit (
@@ -125,7 +125,7 @@ endmodule
 ![Screenshot 2025-04-29 093154](https://github.com/user-attachments/assets/3591eb7a-88d2-4387-858c-c39371fed733)
 
 
-// TestBench
+### TestBench Verilog Code ripple counter
 ```verilog
 module ripple_counter_4bit_tb;
 
@@ -165,7 +165,7 @@ endmodule
 ![Screenshot 2025-04-29 093620](https://github.com/user-attachments/assets/dd36b80f-7a7b-442c-a578-082ad975ac99)
 
 
-Conclusion:
+### Conclusion:
 The 4-bit Ripple Carry Adder was successfully designed and implemented using Verilog HDL with the help of a task for the full adder logic. The testbench verified that the ripple carry adder correctly computes the 4-bit sum and carry-out for various input combinations. The simulation results matched the expected outputs.
 
 The 4-bit Ripple Counter was successfully designed and implemented using Verilog HDL. A function was used to calculate the next state of the counter.
