@@ -90,8 +90,8 @@ module ripple_4bit_adder_tb;
 endmodule
 ```
 ### Simulated Output
-![Screenshot 2025-04-12 143145](https://github.com/user-attachments/assets/c3a420f4-6222-4999-901f-6cbfff2864b0)
- Output
+
+![Screenshot 2025-04-29 093154](https://github.com/user-attachments/assets/3591eb7a-88d2-4387-858c-c39371fed733)
 
 
 ### Verilog Code ripple counter
@@ -122,8 +122,7 @@ module ripple_counter_4bit (
 endmodule
 ```
 ### Simulated Output
-![Screenshot 2025-04-29 093154](https://github.com/user-attachments/assets/3591eb7a-88d2-4387-858c-c39371fed733)
-
+![Screenshot 2025-04-12 143145](https://github.com/user-attachments/assets/c3a420f4-6222-4999-901f-6cbfff2864b0)
 
 ### TestBench Verilog Code ripple counter
 ```verilog
